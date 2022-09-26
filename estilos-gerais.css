@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: "Barlow", sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 30px 0 ;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.titulo {
+    color: #32b9cd;
+    font-size: 16px;
+}
+
+/*passar o flexbox apenas em caixas pai*/
+
+.navegacao {
+    color: #efb661;
+
+}
+
+.navegacao a {
+    color: #efb661;
+    text-decoration: none;
+    
+}
+
+.agora {
+    font-weight: bold;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.navegacao ul li {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+footer {
+    background-color: #32b9cd;
+    padding: 45px 0;
+
+}
+
+footer .container {
+    justify-content: center;
+}
+
+footer p {
+    color: #fff; }
